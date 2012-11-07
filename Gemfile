@@ -4,8 +4,8 @@ source :rubygems
 gemspec
 
 gem 'puma'
+gem 'travis-core',    github: 'travis-ci/travis-core', branch: 'sf-restore-master'
 gem 'travis-support', github: 'travis-ci/travis-support'
-gem 'travis-core',    github: 'travis-ci/travis-core'
 gem 'hubble',         github: 'roidrage/hubble'
 gem 'yard-sinatra',   github: 'rkh/yard-sinatra'
 gem 'rack-contrib',   github: 'rack/rack-contrib'
